@@ -100,7 +100,7 @@ header{
 }
 .recipe-meal{
     width: 33%;
-    margin: 10px 35px;
+    margin: 10px 20px;
     padding: 20px;
     box-shadow: 1px 10px 20px rgba(35, 40, 65, 0.199);
     border-radius: 20px;
@@ -111,6 +111,11 @@ header{
     margin: 0 auto;
     border-radius: 20px;
 }
+.recipe-meal a{
+    text-align: center;
+    display: block;
+    margin:20px 80px;
+}
 .sec5{
     margin: 0 100px;
     padding: 20px 0;
@@ -120,7 +125,7 @@ header{
     margin-bottom: 100px;
 }
 .count{
-    width: 33%;
+    width: 33.33%;
     text-align: center;
 }
 footer{
@@ -134,4 +139,13 @@ footer h1{
 }
 footer span{
     color: coral;
+}
+.sec6{
+    text-align: center;
+}
+.number{
+    margin: 0 auto ;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(#007ACC, #053cf0);
+    border-image-slice: 1;
 }
